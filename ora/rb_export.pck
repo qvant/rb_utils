@@ -56,7 +56,7 @@ end RB_EXPORT;
 create or replace package body RB_EXPORT is
 
   c_version      constant number := 1;
-  c_type_number  constant number := 12;
+  c_type_number  constant number := 2;
   c_type_date    constant number := 12;
   c_max_linesize constant number := 32767;
   c_file_open_mode constant varchar2(1 char) := 'w';
